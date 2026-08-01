@@ -1,6 +1,9 @@
 local options = {
   formatters_by_ft = {
     lua = { "stylua" },
+    python = { "ruff_fix", "ruff_format" },
+    terraform = { "terraform_fmt" },
+    hcl = { "terraform_fmt" },
     -- css = { "prettier" },
     -- html = { "prettier" },
   },
